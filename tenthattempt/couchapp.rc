@@ -1,13 +1,11 @@
 {
-  "env": {
-    "default": {
-      "db": "http://user:password@127.0.0.1:5984/development"
+  "env": {"staging" :{"db";""},"default":{"db":"http:\/\/127.0.0.1:5984\/petproject"},"product"
+  	},	
+    "local": {
+      "db": "http://127.0.0.1:5984/petapp"
     },
-    "staging": {
-      "db": "http://user:password@127.0.0.1:5984/staging"
-    },
-    "production": {
-      "db": "http://user:password@127.0.0.1:5984/production"
+    "cloudant": {
+      "db": "https://seedthaveryinufevolikese:KuV53Fy57JG5HepWWpxk4uwU@cmorath.cloudant.com/petproject"
     }
   }
 }
